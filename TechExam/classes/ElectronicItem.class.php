@@ -6,7 +6,7 @@ class ElectronicItem {
     public $totalPrice;
     public $extras = array();
 
-    public function __construct( string $type, float $price=0, $extras = [])
+    public function __construct( string $type, float $price, $extras = [])
     {
 
         if($this->maxExtras($type, $extras)){
